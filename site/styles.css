@@ -1,20 +1,20 @@
-
-h1 {
+h1{
 	text-align-last: center;
-	padding: 10px;
-	margin: 10px;
 }
-
 *{
 	box-sizing: border-box;
 }
 p{
-	padding-top: 10px;
+	padding: 20px;
+
+}
+#hossein {
+	background-color: grey;
+	clear: left;
 }
 
 body {
-	margin: 0;
-	padding: 0;
+padding-left: 100px;
 }
 .chicken {
 	background-color: #FAEBD7;
@@ -48,40 +48,26 @@ body {
 	border:1px solid black;
 	margin: 10px;
 	background-color: #F8F8FF;
-	width: 30%;
-	float: right;
-
+	width: 400px;
+	height: 150px;
+	float: left;
 }
 
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  #row1{
-    width: 80%;
-  }
-  #row2{
-    width: 150px;
-    height: 150px;
-  }
-}
-#row3{
-	width: 150px;
-    height: 150px;
-  }
-}
 
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  #row1{
-    width: 50%;
-  }
-  #row2{ 
-    width: 50px;
-    height: 50px;
-  }
-  #row3{
-	width: 50px;
-    height: 50px;
-  }
-}
+@media(min-width: 1200px) {
+ .row3{
+ 	width: 80%
+ }
+ .row1,.row2 {
+ 	width: 559px;
+ }
+ }
+ @media (min-width: 992px) and (max-width: 1199px){
+ .row3{
+ 	width: 50%
+ }
+ .row1,.row2 {
+ 	width: 559px;
+ }
+ }
